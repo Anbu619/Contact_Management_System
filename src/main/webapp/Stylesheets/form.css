@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div{
+	position: relative;
+	top: 180px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+div form{
+	border: 2px solid black;
+	border-radius:5px;
+	padding:10px;
+	width: 300px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+div form label{
+	font-size:18px;
+}
+div form input{
+	margin: 10px;
+	font-size: 20px;
+	padding: 5px;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+	height: 100vh;
+	justify-content: center;
+}
+#main{
+	position:relative;
+	top:180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+#main h1{
+	margin: 10px;	
+}
+
+#main a{
+	border: 2px solid black;
+	border-radius:5px;
+	padding: 8px;
+	margin: 10px;
+	font-size:20px;
+	text-decoration: none;
+}

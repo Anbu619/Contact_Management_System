@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+#logo a{
+	color:white;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.btn a{
+	border: 2px solid white;
+	border-radius:5px;
+	padding: 8px;
+	margin: 10px;
+	font-size:16px;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+}
